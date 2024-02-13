@@ -1,0 +1,1 @@
+let result = (a + b > 4) ? result = "Bellow" : result = "Over";
