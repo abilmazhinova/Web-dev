@@ -1,0 +1,10 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h2> <strong>{{ product?.name }}</strong></h2>
+  <img src="{{ product.image }}" alt="{{ product.name }}">
+  <h4 id = 'price'>Current price: {{ product?.price }} ₸</h4>
+  <p> Description: {{ product?.description }}</p>
+  <p class= "rait">Rating: {{product?.raiting}} </p>
+  <a href="{{ product.kaspiLink }}" target="_blank" class="order-button">Order now</a>
+</div>

@@ -1,0 +1,19 @@
+.order-button{
+  background-color:#43846b;
+  color:aliceblue;
+  font-size: 19px;
+  border: none;
+  outline: none;
+  border-radius: 55px;
+}
+#price{
+  color: #43846b;
+  font-size: 21px;
+}
+.rait{
+  color:rgb(74, 65, 65);
+  font-family: 'Courier New', Courier, monospace;
+}
+img{
+  width: 555px;
+}
