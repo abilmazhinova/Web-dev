@@ -1,0 +1,16 @@
+.product-card button {
+    display: block;
+    margin-top: 5px; /* Дополнительный отступ между кнопками */
+  }
+  .product-card {
+    border: 1px solid #43846b; /* цвет и толщина рамки */
+    border-radius: 8px; /* скругление углов */
+    padding: 10px; /* отступы вокруг контента */
+    margin-bottom: 20px; /* отступ между продуктами */
+  }
+  
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

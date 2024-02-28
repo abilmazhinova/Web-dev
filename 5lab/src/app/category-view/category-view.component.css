@@ -1,0 +1,10 @@
+.catg {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px; /* Отступ между категориями */
+    border:1px solid #43846b; /* Ширина и цвет рамки */
+    border-radius: 5px; /* Радиус скругления углов */
+    padding: 5px 10px; /* Внутренние отступы внутри рамки */
+  }
+  

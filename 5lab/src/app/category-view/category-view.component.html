@@ -1,0 +1,14 @@
+<div class="categoryrow">
+  
+    <div *ngFor="let category of categories" class = "catg">
+      <h3>
+        <a
+          [title]="category.name "
+          [routerLink]="['/categories', category.id]"
+        >
+          {{ category.name }}
+        </a>
+      </h3>
+      <router-outlet></router-outlet>
+    </div>
+</div>
