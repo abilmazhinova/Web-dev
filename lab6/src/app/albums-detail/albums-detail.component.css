@@ -1,0 +1,77 @@
+div {
+    max-width: 6500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #2d5a49;
+    border-radius: 58px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  p {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #2a614d;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  div > div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #43846b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 55px;
+    margin-left: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #305b4b;
+  }
+  
+  button[routerLink] {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[routerLink]:hover {
+    background-color: #2980b9;
+  }
+  
+  h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

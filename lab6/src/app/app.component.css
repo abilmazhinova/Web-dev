@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    padding: 16px;
+    background-color: #43846b; 
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #2d5a49; 
+  }
+  
+  li.active {
+    background-color: #43846b; 
+  }
+  
+  li.active a {
+    color: white;
+  }
+  
